@@ -21,11 +21,11 @@ Le projet a débuté sous le nom de "Risquomètre en contraception" et a ensuite
 
 1. Clonez ce dépôt :
 
-   git clone https://github.com/sexoblogue/ScoreContraceptif.git
+   git clone https://github.com/sexoblogue/ScoreContraceptif.info.git
 
 2. Allez dans le dossier du projet :
 
-   cd ScoreContraceptif
+   cd ScoreContraceptif.info
 
 3. Installez les dépendances avec npm :
 
@@ -39,7 +39,7 @@ Le projet a débuté sous le nom de "Risquomètre en contraception" et a ensuite
 
 Cette application est sous licence Creative Commons CC-BY. Elle peut être librement utilisée, copiée, remixée ou transformée sous la condition de créditer les auteurs comme suit :
 
-CC-BY https://scorecontraceptif.info, développé par Alan Charissou et Arnaud Zeler, cofinancé par le Conseil Départemental de Meurthe et Moselle et Sexoblogue.fr.
+CC-BY https://scorecontraceptif.info, développé par Alan Charissou et Arnaud Zeler, cofinancé par le Conseil Départemental de Meurthe et Moselle et https://sexoblogue.fr.
 
 ## Financement
 
