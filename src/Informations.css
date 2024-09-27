@@ -1,0 +1,57 @@
+.resource-card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.resource-card > div:first-child {
+  margin-right: 2rem;  /* Espace à droite de la première colonne */
+  flex:1;
+}
+.resource-card > div:last-child {
+  margin-right: 2rem;  /* Espace à droite de la première colonne */
+  flex:2;
+}
+
+.resource-card img {
+  max-width: 100%;  /* Largeur maximale */
+  height: auto;
+}
+
+.resource-card p {
+  text-align: justify;  /* Texte justifié */
+}
+
+.resource-card p:first-child {
+  font-weight: bold;  /* Titre en gras */
+}
+
+.access-button {
+  background-color: green;
+  float: right;  /* Bouton flottant à droite */
+  font-size: larger;  /* Police plus grande */
+}
+
+.access-button > a {
+  color: white;
+}
+
+/* Pour les écrans jusqu'à 768px */
+@media (max-width: 768px) {
+  .resource-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resource-card > div:first-child {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .access-button {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}

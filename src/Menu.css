@@ -1,0 +1,73 @@
+/*Menu.css*/
+.menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 90px; /* Hauteur du menu */
+  background-color: #ffffff; /* Couleur de fond du menu */
+  display: flex;
+  justify-content: space-around; /* Espacement égal entre les éléments */
+  align-items: stretch; /* Centrage vertical des éléments */
+  border-top: 1px solid #dbdbdb; /* Bordure supérieure */
+  z-index: 1000; /* Pour s'assurer que le menu est au-dessus des autres éléments */
+  padding-bottom: 20px; /* Ajoutez cette ligne pour augmenter la marge en bas */
+}
+.menu-item {
+  text-align: center;  /* Centre le texte et l'icône */
+  display: flex;  /* Utilise flexbox */
+  flex-direction: column;  /* Organise les éléments verticalement */
+  align-items: center;  /* Centre les éléments horizontalement */
+}
+
+.menu-item span {
+  display: block;  /* Affiche le texte sur une nouvelle ligne */
+  font-size: calc(10px + 0.5vw);  /* Taille du texte adaptative */
+}
+
+.menu a {
+  color: #262626; /* Couleur des liens */
+  font-size: 20px; /* Taille de la police */
+  padding: calc(10px + 1vw);  /* Espacement interne adaptatif */
+  text-decoration: none; /* Suppression du soulignement */
+  margin-bottom: -20px !important;
+}
+
+.menu a.active {
+  color: #000000; /* Couleur du lien actif */
+}
+.menu-item>.fa{
+  font-size: calc(24px + 0.5vw);  /* Taille de l'icône adaptative */
+}
+
+.active-link {
+  background-color: aliceblue;
+}
+/* Media Query pour les petits écrans */
+@media (max-width: 850px) {
+  .menu-item span {
+    font-size: calc(8px + 0.5vw);  /* Réduit la taille du texte */
+  }
+  .menu-item>.fa {
+    font-size: calc(20px + 0.5vw);  /* Réduit la taille de l'icône */
+  }
+  .menu a {
+    padding: calc(8px + 1vw);  /* Réduit l'espacement interne */
+  }
+}
+/* Media Query pour les très petits écrans */
+@media (max-width: 674px) {
+  .menu-item span {
+    display: none;  /* Masque le texte */
+  }
+  .menu-item>.fa {
+    font-size: calc(30px + 0.5vw)!important;  /* Ajuste la taille de l'icône si nécessaire */
+  }
+  .menu a {
+    padding: calc(10px + 1vw);  /* Ajuste l'espacement interne si nécessaire */
+  }
+  .menu{
+    height: 65px; /* Hauteur du menu */
+  }
+}

@@ -1,0 +1,113 @@
+/*Credits.css*/
+.credits-content {
+  font-size: 1rem; /* Utilisation d'unités relatives */
+  line-height: 1.6;
+  color: #333;
+}
+
+.citation{
+  font-size: calc(0.7em + 0.2vw);
+  border-style: dashed;
+  display: block;
+  padding: 10px;
+  border-width: thin;
+}
+
+/* Styles pour le tableau */
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto; /* Permet le défilement horizontal sur les petits écrans */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 0.75rem 1rem; /* Utilisation d'unités relatives */
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Légende du tableau */
+.table-legend {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 0.875rem; /* Utilisation d'unités relatives */
+  text-align: center;
+}
+
+.image-container {
+  text-align: center;
+  padding-top: 20px;
+}
+.image-container>img {
+  max-width:100%;
+}
+
+p.click-to-enlarge {
+  font-size: 0.75rem!important; /* Utilisation d'unités relatives */
+  text-align: center!important;
+  margin-top: 5px!important;
+}
+
+img.financement{
+  margin-left:20px;
+}
+
+/* Styles pour les écrans plus petits */
+@media (max-width: 768px) {
+  th, td {
+    padding: 0.5rem; /* Réduction de l'espacement */
+  }
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 90%;
+  max-width: 100%; /* Permet à l'image de s'adapter à la largeur de l'écran */
+}
+
+
+.caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+}

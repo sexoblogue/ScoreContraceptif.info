@@ -1,0 +1,72 @@
+/* html.css */
+
+.html-content {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 2vw; /* Utilisation de vw pour un padding adaptatif */
+  text-align: left;
+}
+
+.align-left{
+  text-align: left!important;
+}
+
+/* Titres */
+
+.html-content h1 {
+  font-size: calc(1.6em + 1vw); /* Utilisation de calc pour une taille adaptative */
+  margin-bottom: 1.5em;
+}
+
+.html-content h2 {
+  font-size: calc(1.5em + 0.5vw);
+  margin-bottom: 1.4em;
+}
+
+.html-content h3 {
+  font-size: calc(1.2em + 0.5vw);
+  margin-bottom: 1.3em;
+}
+
+.html-content h4 {
+  font-size: calc(1.2em + 0.5vw);
+  margin-bottom: 1.2em;
+}
+
+.html-content h5 {
+  font-size: calc(1.1em + 0.5vw);
+  margin-bottom: 1.1em;
+}
+
+/* Paragraphes */
+
+.html-content p {
+  font-size: calc(1em + 0.2vw);
+  text-align: justify;
+  margin-bottom: 1em;
+}
+
+/* Listes */
+
+.html-content ul,
+.html-content ol {
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+.html-content li {
+  margin-bottom: 0.5em;
+  text-align: justify;
+}
+
+/* Liens */
+
+.html-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.html-content a:hover {
+  text-decoration: underline;
+}

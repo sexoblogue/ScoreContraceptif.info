@@ -1,0 +1,44 @@
+[
+  {
+	"name": "Santé Publique France",
+	"title": "Tableau comparatif pour vous guider dans votre choix de contraception.",
+	"logoUrl": "https://upload.wikimedia.org/wikipedia/fr/thumb/5/50/Sante-publique-France-logo.svg/512px-Sante-publique-France-logo.svg.png",
+	"description": "Préservatif, DIU (dispositif intra utérin), implant, pilule... pas toujours facile de faire un choix parmi les différents types de contraception. Un tableau comparatif des différents modes de contraception peut vous guider dans votre choix, afin de sélectionner le moyen de contraception qui vous semble le mieux adapté à vous et à votre mode de vie.",
+	"siteUrl": "https://questionsexualite.fr/choisir-sa-contraception/ma-contraception-et-moi/tableau-comparatif-pour-vous-guider-dans-votre-choix-de-contraception"
+  },
+{
+	  "name": "Centers for Disease Control and Prevention (CDC)",
+	  "title": "U.S. Selected Practice Recommendations for Contraceptive Use, 2016",
+	  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/US_CDC_logo.svg/636px-US_CDC_logo.svg.png",
+	  "description": "Recommandations sur l'initiation et l'utilisation de méthodes contraceptives spécifiques, mise à jour par le CDC après revue des preuves scientifiques et consultation avec des experts nationaux.",
+	  "siteUrl": "https://www.cdc.gov/mmwr/volumes/65/rr/rr6504a1.htm"
+  },
+ {
+	 "name": "Centers for Disease Control and Prevention (CDC)",
+	 "title": "U.S. Medical Eligibility Criteria for Contraceptive Use, 2016",
+	 "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/US_CDC_logo.svg/636px-US_CDC_logo.svg.png",
+	 "description": "Recommandations pour l'utilisation de méthodes contraceptives spécifiques pour les femmes et les hommes ayant certaines caractéristiques ou conditions médicales, émis par le CDC après examen des preuves scientifiques et consultation avec des experts nationaux.",
+	 "siteUrl": "https://www.cdc.gov/mmwr/volumes/65/rr/rr6503a1.htm"
+ },
+{
+	 "name": "American Academy of Pediatrics",
+	 "title": "Contraception for Adolescents",
+	 "logoUrl": "https://aap2.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/pediatrics/Pediatrics_Cover29993476.jpg",
+	 "description": "Recommandations pour la contraception chez les adolescents, formulées par le Committee on Adolescence de l'American Academy of Pediatrics.",
+	 "siteUrl": "https://publications.aap.org/pediatrics/article/134/4/e1244/32981/Contraception-for-Adolescents?autologincheck=redirected"
+ },
+ {
+	 "name": "Ameli.fr",
+	 "title": "Entrée dans la vie sexuelle et contraception à l'adolescence",
+	 "logoUrl": "https://www.ameli.fr/themes/custom/ameli/images/logo.svg",
+	 "description": "Informations et conseils sur l'entrée dans la vie sexuelle et la contraception à l'adolescence, proposés par l'Assurance Maladie.",
+	 "siteUrl": "https://www.ameli.fr/meurthe-et-moselle/assure/sante/themes/puberte/entree-vie-sexuelle-contraception-adolescence"
+ },
+  {
+	"name": "Sexoblogue",
+	"title": "Sexoblogue est un site créé à l'attention des professionnels du soin et de l'éducation  pour favoriser la promotion de la santé sexuelle.",
+	"logoUrl": "https://sexoblogue.fr/wp-content/uploads/logo-sexoblogue-150-carre.jpg",
+	"description": "",
+	"siteUrl": "https://sexoblogue.fr/dossier/contraception"
+  }
+]

@@ -1,0 +1,217 @@
+/*App.css*/
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f5f5dc;
+  min-height: 100vh;
+  width: 100%;
+  padding-bottom: 25px;
+  overflow-x: hidden;
+  text-align: center;
+  /*user-select: none;*/
+}
+
+.master {
+  border: 2px solid #87ceeb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  min-width: 768px;
+  width: 50%;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 5px;
+  height: min-content;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    min-width: 250px;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 80px;
+    padding: 15px;
+    border-radius: 5px;
+    height: min-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}
+h1.titre{
+  display: none;
+}
+h1.sous-titre {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+h2.citation-sous-titre {
+    font-size: 1.2em; /* Ajustez la taille de la police selon vos préférences */
+    font-style: italic; /* Italique pour une sensation de citation */
+    color: #555; /* Ajustez la couleur selon vos préférences */
+    margin: 10px 0; /* Espacement au-dessus et en dessous de la citation */
+    display: block;
+    max-width: 75%;
+}
+.logo2 {
+  height: calc(100px + 5vw); /* Utilisation de calc pour une taille adaptative */
+  object-fit: cover;
+  margin: 0;
+}
+
+
+.result {
+  width: 100%;
+  min-height: 100px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  background-color: #f5f5dc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #000;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+  rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.col > img {
+  height: 40px;
+}
+
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.first {
+  font-weight: 500;
+  font-size: calc(16px + 0.5vw); /* Utilisation de calc pour une taille adaptative */
+  margin: 0;
+}
+
+.seconde {
+  font-size: calc(14px + 0.5vw);
+  margin: 0;
+  font-weight: 500;
+  color: #000;
+}
+
+.contre {
+  margin: 0;
+  font-size: 12px;
+  color: #000;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.etiquette {
+  margin: 0;
+  font-size: 12px;
+  color: #808080;
+}
+.etiquette + .seconde {
+  margin-top: 10px;
+}
+.content {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content > p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.card {
+  height: 100px;
+  width: 150px;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.card > p {
+  font-size: 12px;
+}
+
+.card > img {
+  height: 40px;
+}
+.card-highlight {
+  border: 1px solid rgb(255, 209, 0); /* ou toute autre style que vous préférez */
+  background-color: lightgoldenrodyellow; /* Choisissez la couleur que vous préférez */
+}
+
+.activate {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #87CEEB;
+}
+.gauge svg>g>g>text {
+  font-size: calc(15px + 0.4vw) !important;
+  font-weight: bold !important;
+}
+.gauge svg>g>text {
+  display: none!important;
+}
+.contraception_logo_grand {
+  height: calc(50px + 5vw);
+  width: calc(50px + 5vw);
+}
+.contraception_logo_petit{
+  height: 50px!important;
+  width: 50px!important;
+}
+.ant-steps-item-content{
+  display: none!important;
+}
+
+@media only screen and (max-width: 375px) {
+  .first, .seconde {
+    font-size: calc(12px + 0.3vw); /* Réduit la taille du texte pour les petits écrans */
+  }
+}
